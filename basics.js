@@ -23,7 +23,7 @@ var person = {
  */
 
 function greet(name){
- 	alert("Hello, my name is " + person.name);
+ 	document.write("Hello, my name is " + person.name);
  }
 
 
@@ -42,10 +42,10 @@ var dog={
 	name:"Spot"
 };
 
-function speak(){
+function bark(){
 	var request = prompt("type speak");
 		if(request.toLowerCase()==="speak"){
 			alert("Arf-Arf!");
 		}
 };
-speak();
+bark();
