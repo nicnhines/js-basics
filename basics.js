@@ -11,10 +11,11 @@ var person = {
 /* Create a variable called `canDrive`,
  * if it should be true if your person object is at least 16 years old
  */
- var canDrive= age;
- if( canDrive>=16){
- 	return true;
+ var canDrive;
+ if( person.age >= 16){
+ 	canDrive = true;
  }
+ console.log(canDrive);
 
 /* Create a function called `greet`,
  * it should take a 1 parameter, `name`
